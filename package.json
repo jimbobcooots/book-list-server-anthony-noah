@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncokos/301-server.git"
+    "url": "git+https://github.com/noahmvf/book-list-server-anthony-noah"
   },
-  "author": "John",
+  "author": "Noah Anthony",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johncokos/301-server/issues"
+    "url": "https://noahmvf.github.io/anthony-noah-book-list-client/"
   },
-  "homepage": "https://github.com/johncokos/301-server#readme",
+  "homepage": "https://github.com/noahmvf/book-list-server-anthony-noah/blob/master/README.md",
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3",
