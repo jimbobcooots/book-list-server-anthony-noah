@@ -1,0 +1,24 @@
+{
+  "name": "301-server",
+  "version": "1.0.0",
+  "description": "Server Side Stuff",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmvf/book-list-server-anthony-noah"
+  },
+  "author": "Noah Anthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://noahmvf.github.io/anthony-noah-book-list-client/"
+  },
+  "homepage": "https://github.com/noahmvf/book-list-server-anthony-noah/blob/master/README.md",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pg": "^7.4.1"
+  }
+}
