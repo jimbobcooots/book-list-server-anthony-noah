@@ -16,8 +16,8 @@ app.use(cors());
 
 app.get('/test', (req, res) => res.send('Hello Big Baller Playaz'));
 
-app.get('/api/v1/tasks', (req, res) => {
-  client.query(`SELECT * from tasks;`)
+app.get('/api/v1/books', (req, res) => {
+  client.query(`SELECT * from books;`)
   .then(results => res.send(results.rows)).catch(console.error);
 });
 
