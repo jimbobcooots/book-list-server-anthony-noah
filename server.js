@@ -5,7 +5,7 @@ const pg = require('pg');
 const express = require('express');
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const CLIENT_URL = process.env.CLIENT_URL;
 
 const client = new pg.Client (process.env.DATABASE_URL);
@@ -17,7 +17,7 @@ app.use(cors());
 app.get('/test', (req, res) => res.send('Hello Big Baller Playaz'));
 
 app.get('/api/v1/books', (req, res) => {
-  client.query(`SELECT * from books;`)
+  client.query(`SELECT book_id, title, author, image_URL FROM books;`)
   .then(results => res.send(results.rows)).catch(console.error);
 });
 
